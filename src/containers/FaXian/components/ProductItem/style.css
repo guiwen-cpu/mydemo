@@ -1,0 +1,103 @@
+.discover__main__list{
+    padding: 5px;
+    width:47.2%;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-bottom: none;
+    
+
+}
+.discover__main__list:nth-child(2n+1){
+    border-right: none;
+    border-left: none;
+}
+.discover__main__list:nth-child(2n){
+    border-right: none;
+}
+.discover__main__list__img{   
+    width: 100%;
+    position: relative;
+}
+.discover__main__list__img>img{
+    height: 100%;
+    width: 100%;
+}
+.discover__main__list__img>span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.7);
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+.discover__main__list__text{
+    width: 100%;
+    padding-left: 5px;
+    
+}
+.discover__main__list__text .product__title{
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 23px;
+    width: 100%;
+}
+.discover__main__list__text>p{
+    font-size: 12px;
+    color: #666;
+    
+
+}
+.text__product__massage .text__price>i{
+color:#ff6000;
+font-size: 10px;
+margin-right: 3px;
+}
+.text__product__massage .text__price>span{
+    color:#ff6000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.text__product__massage .text__discount{
+    border: 1px solid red;
+    text-align: center;
+    color: red;
+    font-size: 7px;
+    display:inline-block;
+    height: 10px;
+    line-height: 10px;
+    
+    margin-bottom:2px;
+    
+}
+.text__shop__t>i{
+    background: url(../../../../images/discover/商铺.png);
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align:text-top;
+}
+.text__shop__t{
+    border-top-style: dashed;
+    border-width: 1px;
+    border-color: rgba(153, 153, 153, 0.74);
+    color: #999;
+    font-size: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding:3px 5px;
+    padding-right: none;
+    margin-right: 10px;
+    
+}

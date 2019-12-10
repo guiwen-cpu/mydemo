@@ -1,0 +1,28 @@
+#btnTop {
+    display: none;
+    position: fixed;
+    bottom:100px;
+    right: 20px;
+    width: 18px;
+    height: 18px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(12, 141, 247, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    
+    
+}
+#btnTop::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 80%;
+    height: 80%;
+    background: url(../../images/discover/回到顶部.png);
+    background-size: cover;
+}

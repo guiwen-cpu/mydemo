@@ -1,0 +1,42 @@
+.hongBao{
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: #fff;
+    
+}
+.hongBao__left{
+    border-right: 1px solid #999;
+    float: left;
+    padding: 15px 0;
+   
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+}
+.hongBao__right{
+    float: right;
+    padding: 15px 0;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+}
+.hongBao__p1>span{
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+.hongBao__p1{
+    font-size:13px ;
+    color: tomato;
+
+}
+.hongBao__p2{
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+

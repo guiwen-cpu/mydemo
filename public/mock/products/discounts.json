@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p-100",
+    "shopIds": ["s-100"],
+    "shop": "坑德基",
+    "tag": "免预约",
+    "product": "坑德基",
+    "currentPrice": 89,
+    "oldPrice": 6.7,
+    "picture": "https://p0.meituan.net/deal/0d3fb4483c649ad43ac4398e10f8342014520.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20"
+  },
+  {
+    "id": "p-101",
+    "shopIds": ["s-101"],
+    "shop": "百果园",
+    "tag": "免预约",
+    "product": "百果园",
+    "currentPrice": 15,
+    "oldPrice": 36,
+    "picture": "https://p0.meituan.net/deal/07aa8f3bbe0656d866d0c8c65202da7e29588.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20"
+  },
+  {
+    "id": "p-102",
+    "shopIds": ["s-102"],
+    "shop": "至尊披萨",
+    "tag": "免预约",
+    "product": "至尊披萨",
+    "currentPrice": 88,
+    "oldPrice": 56,
+    "picture": "https://p1.meituan.net/deal/c6cca1a7f340a44a5de8fff172d9ffa2136605.jpg.webp@180w_180h_1e_1c_1l_80q%7Cwatermark=0"
+  }
+]

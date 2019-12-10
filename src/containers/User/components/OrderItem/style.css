@@ -1,0 +1,245 @@
+.orderItem {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderItem__title {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  color: #111;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.orderItem__main {
+  display: flex;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.orderItem__imgWrapper {
+  height: 80px;
+  width: 80px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.orderItem__img {
+  height: 100%;
+  width: 100%;
+}
+
+.orderItem__tag {
+  display: inline-block;
+  padding: 0 9px;
+  height: 22px;
+  width: 62px;
+  line-height: 22px;
+  background-color: #c39c6d;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+}
+
+.orderItem__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 0 8px 0 10px;
+  min-width: 0;
+}
+
+.orderItem__line {
+  font-size: 14px;
+  line-height: 28px;
+  color: #555;
+  white-space: nowrap;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.orderItem__bottom {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderItem__type {
+  font-size: 13px;
+  color: #999;
+  line-height: 13px;
+}
+
+.orderItem__btn {
+  display: inline-block;
+  border: 1px solid #bbb;
+  color: #555;
+  height: 27px;
+  width: 62px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 13px;
+}
+
+.orderItem__commentContainer {
+  width: 100%;
+  padding-bottom: 10px; 
+}
+
+.orderItem__comment {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.orderItem__starContainer {
+  margin-bottom: 5px;
+}
+
+.orderItem__star {
+  color: #999;
+}
+
+.orderItem__star--light {
+  color: rgb(233, 32, 61);
+}
+
+.orderItem__commentBtn {
+  display: inline-block;
+  border: 1px solid #bbb;
+  color: #555;
+  background-color: #fff;
+  height: 27px;
+  width: 62px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+}
+.orderItem__commentshow{
+  width: 100%;
+ 
+position: relative;
+
+}
+.orderItem__commentshow .username__time{
+  
+ line-height: 16px;
+ 
+ border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #999;
+  white-space: nowrap;
+
+}
+.orderItem__commentshow .username__time .username{
+font-size: 13px;
+color: rgb(43, 43, 136);
+font-family:Arial;
+font-weight: bolder;
+
+}
+.orderItem__commentshow .username__time .time{
+  font-size: 10px;
+  margin-left: 10px;
+}
+.orderItem__commentshow .username__time .stars{
+  position: absolute;
+  left:200px;
+  top:0px;
+  font-size: 18px;
+  margin-left: 20px;
+  color: rgb(229, 233, 14);
+}
+.orderItem__commentshow .username__time .stars>span{
+  color: #999;
+  font-size: 14px;
+}
+.orderItem__commentshow .commentText{
+  padding: 3px 0;
+  margin-left: 10px;
+  line-height: 20px;
+  font-size: 11px;
+  color: #666;
+  
+}
+.weixin{
+  background: url(../../../../images/discover/微信.png);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.zhifubao{
+background: url(../../../../images/discover/支付宝.png);
+display: inline-block;
+width: 30px;
+height: 30px;
+background-size: cover;
+margin-left:90px;
+}
+.deleteComment{
+  position: absolute;
+  right: -3px;
+  top: 24px;
+  width: 30px;
+  height: 20px;
+  color: #999;
+  font-size: 13px;
+}
+.purchaseForm__quantity {
+  width: 42px;
+  border: 1px solid #bbb;
+  color: #333;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.orderItem__counter--dec {
+  margin-left: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  border-radius: 2px;
+  padding: 5px 0 5px;
+  border: 1px solid #bbb;
+  color: #bbb;
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.orderItem__counter--inc {
+  vertical-align: middle;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  border-radius: 2px;
+  padding: 5px 0 5px;
+  border: 1px solid #bbb;
+  color: #bbb;
+  font-size: 12px;
+  font-weight: 700;
+}
+.orderItem_setNum{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

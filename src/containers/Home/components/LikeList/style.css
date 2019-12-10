@@ -1,0 +1,44 @@
+.likeList {
+  background-color: #fff;
+}
+
+.likeList__header {
+  height: 30px;
+  line-height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.likeList__viewAll {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+}
+.likeList__bottom{
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 0;
+  color: rgba(153, 153, 153, 0.596);
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px dotted rgb(224, 224, 224);
+  
+  
+  
+}
+.likeList__bottom>span{
+  display: inline-block;
+  background: url(../../../../images/discover/上传.png);
+  width: 30px;
+  height:30px;
+  
+  margin-left: 20px;
+  background-size: cover;
+  vertical-align:middle;
+
+}

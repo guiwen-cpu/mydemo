@@ -1,0 +1,119 @@
+.registerForm__inputContainer {
+    background: #fff;
+    margin-top: 16px;
+  }
+  
+  .registerForm__row {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    background-size: auto 1px;
+    margin-bottom: 1px;
+    display: flex;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .registerForm__mobileLabel {
+    display: inline-block;
+    width: 60px;
+    
+    border-right: 1px solid #e0e0e0;
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+  }
+  
+  .registerForm__mobileLabel::after {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-right: 2px solid #bab5ad;
+    border-bottom: 2px solid #bab5ad;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0 0 0 4px;
+    position: relative;
+    top: -3px;
+    margin-left: 8px;
+    content: "";
+  }
+  
+  .registerForm__input {
+    border: none;
+    height: 23px;
+    flex: 1;
+    line-height: 23px;
+    padding: 10px 0 10px 10px;
+    font-size: 15px;
+    outline: 0;
+    color: #333;
+  }
+  
+  .registerForm__passwordLabel {
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+  }
+  
+  .registerForm__btnContainer {
+    margin-top: 12px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  
+  .registerForm__btn {
+    width: 100%;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #f63;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+  .registerForm__toLogin{
+    color: #bab5ad;
+    font-size: 15px;
+    
+    text-align: right;
+   
+    padding: 15px;
+  }
+  .registerForm__verification{
+    display: inline-block;
+    font-size: 25px;
+    color:coral;
+    font-weight: bold;
+    padding: 0 0 12px 0;
+    line-height: 30px;
+    
+    width: 110px;
+    text-align: center;
+    background:rgb(111, 233, 241);
+    position: absolute;
+    right: 5px;
+    top: 0;
+  }
+  .registerForm__verification::before{
+    content: "看不清，换一张";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background: rgba(0, 0, 0, 0.384);
+  }
+  

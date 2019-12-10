@@ -1,0 +1,138 @@
+.userMain {
+    color: #333;
+    font-size: 17px;
+    font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+
+}
+
+.userMain__one {
+    margin-top: 10px;
+}
+
+.oneWarpper {
+    width: 100%;
+    height: 20px;
+    padding: 10px 0 10px 5px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+
+}
+
+.oneWarpper__text {
+    line-height: 20px;
+}
+
+.oneWarpper__arrow {
+    height: 10px;
+    width: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.oneWarpper__arrow>span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #999;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+
+}
+
+.oneWarpper__logo {
+    background: url(../../../../images/myUser/地址.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.twoWarpper__logo__jinbi {
+    background: url(../../../../images/myUser/商城，购物袋.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.twoWarpper__logo—__xianjin {
+    background: url(../../../../images/myUser/零食礼包.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.oneWarpper__logo__kefu {
+    background: url(../../../../images/myUser/客服.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.oneWarpper__logo__App {
+    background: url(../../../../images/myUser/美食.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.oneWarpper__logo__rule {
+    background: url(../../../../images/myUser/规则中心.png);
+    background-size: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.userMain__two {
+    margin-top: 10px;
+}
+
+.userMain__three {
+    margin-top: 10px;
+}
+
+.user__login__botton {
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.user__login__botton .light {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    color: white;
+    display: inline-block;
+    background: rgb(247, 99, 99);
+    border-radius: 5px;
+
+}
+
+.user__login__botton .gray {
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    color: white;
+    display: inline-block;
+    background: rgb(182, 182, 182);
+    border-radius: 5px;
+}
