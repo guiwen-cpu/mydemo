@@ -33,4 +33,4 @@ npm start 运行之后，会默认打开本地访问路径：http://localhost:30
 npm run bulid (生成打包之后的项目文件,此文件主要用于项目部署)。
 
 #### 页面展示
- ![](https://github.com/guiwen-cpu/mydemo/raw/master/img/图片1.png) 
+ ![](https://github.com/guiwen-cpu/mydemo/raw/master/img/pic1.png) 
