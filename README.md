@@ -34,7 +34,7 @@
 
 ### 运行：
 ```
-git clone  https://github.com/guiwen-cpu/mydemo.git
+git clone https://github.com/guiwen-cpu/mydemo.git
 
 cd mydemo
 
